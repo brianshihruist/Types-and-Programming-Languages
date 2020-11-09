@@ -53,6 +53,7 @@ type command =
 
 
 let rec eval1 ctx t = match t with
+  | TmVar()
 
 let rec tyeqv ctx tyS tyT =
 
